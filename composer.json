@@ -1,0 +1,62 @@
+{
+    "name": "docta/mercadolibre",
+    "description": "MercadoLibre PHP SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Banegas",
+            "email": "lucasconobanegas@gmail.com",
+            "homepage": "https://github.com/lucascono"
+        }
+    ],
+    "keywords": [
+        "api",
+        "app",
+        "application",
+        "client",
+        "meli",
+        "mercadolibre",
+        "mercadolivre",
+        "oauth",
+        "oauth2",
+        "php",
+        "provider",
+        "sdk"
+    ],
+    "require": {
+        "php": "^5.6|^7.0",
+        "docta/oauth2-mercadolibre": "^1.0"
+    },
+    "require-dev": {
+        "apigen/apigen": "^4.1",
+        "mockery/mockery": "^1.1",
+        "phpunit/phpunit": "^5.7",
+        "squizlabs/php_codesniffer": "^3.2"
+    },
+    "suggest": {
+        "ext-xdebug": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Docta\\MercadoLibre\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Docta\\MercadoLibre\\Test\\": "tests/src/"
+        }
+    },
+    "scripts": {
+        "all": ["@fix", "@test", "@docs"],
+        "fix": "phpcbf --colors --standard=PSR2 -q ./src ./tests",
+        "test": ["@test-clean", "@test-phpunit-common", "@test-code"],
+        "test-travis": ["@test-clean", "@test-phpunit-travis", "@test-code"],
+        "test-clean": "rm -rdf ./build",
+        "test-phpunit-common": "phpunit --colors=always --coverage-html ./build/coverage",
+        "test-phpunit-travis": "phpunit --colors=always --coverage-clover ./build/logs/clover.xml",
+        "test-code": "phpcs --colors --standard=PSR2 -p ./src ./tests",
+        "docs": ["@docs-clean", "@docs-apigen"],
+        "docs-clean": "rm -rdf ./docs",
+        "docs-apigen": "apigen generate --config ./.apigen.yml"
+    }
+}

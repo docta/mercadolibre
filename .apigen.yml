@@ -1,0 +1,20 @@
+# docta/mercadolibre
+# @copyright 2018 Lucas Banegas
+# @license MIT
+
+title: MercadoLibre PHP SDK
+baseUrl: https://docta.github.io/mercadolibre/
+main: Docta\MercadoLibre
+download: true
+
+source:
+- "./src"
+- "./vendor/docta/oauth2-mercadolibre"
+- "./vendor/guzzlehttp/guzzle"
+- "./vendor/guzzlehttp/promises"
+- "./vendor/guzzlehttp/psr7"
+- "./vendor/league/oauth2-client"
+- "./vendor/psr/http-message"
+
+exclude: ["*/tests/*"]
+destination: "./docs"

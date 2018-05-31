@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class GuzzleHttp\Tests\Psr7\CachingStreamTest | MercadoLibre PHP SDK</title>
+
+	<link rel="stylesheet" href="resources/style.css?c2f33731c1948fbed7c333554678bfa68d4817da">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li>
+					<a href="namespace-Docta.html">
+						Docta<span></span>
+					</a>
+
+						<ul>
+				<li class="main">
+					<a href="namespace-Docta.MercadoLibre.html">
+						MercadoLibre<span></span>
+					</a>
+
+						<ul>
+				<li class="main">
+					<a href="namespace-Docta.MercadoLibre.Exception.html">
+						Exception					</a>
+
+						</li>
+				<li class="main">
+					<a href="namespace-Docta.MercadoLibre.OAuth2.html">
+						OAuth2<span></span>
+					</a>
+
+						<ul>
+				<li class="main">
+					<a href="namespace-Docta.MercadoLibre.OAuth2.Client.html">
+						Client<span></span>
+					</a>
+
+						<ul>
+				<li class="main">
+					<a href="namespace-Docta.MercadoLibre.OAuth2.Client.Test.html">
+						Test					</a>
+
+						</li>
+							</ul></li></ul></li></ul></li></ul></li>
+				<li class="active">
+					<a href="namespace-GuzzleHttp.html">
+						GuzzleHttp<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-GuzzleHttp.Cookie.html">
+						Cookie					</a>
+
+						</li>
+				<li>
+					<a href="namespace-GuzzleHttp.Exception.html">
+						Exception					</a>
+
+						</li>
+				<li>
+					<a href="namespace-GuzzleHttp.Handler.html">
+						Handler					</a>
+
+						</li>
+				<li>
+					<a href="namespace-GuzzleHttp.Promise.html">
+						Promise<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-GuzzleHttp.Promise.Test.html">
+						Test					</a>
+
+						</li>
+				<li>
+					<a href="namespace-GuzzleHttp.Promise.Tests.html">
+						Tests					</a>
+
+						</li>
+							</ul></li>
+				<li>
+					<a href="namespace-GuzzleHttp.Psr7.html">
+						Psr7					</a>
+
+						</li>
+				<li>
+					<a href="namespace-GuzzleHttp.Test.html">
+						Test<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-GuzzleHttp.Test.Handler.html">
+						Handler					</a>
+
+						</li>
+							</ul></li>
+				<li class="active">
+					<a href="namespace-GuzzleHttp.Tests.html">
+						Tests<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-GuzzleHttp.Tests.CookieJar.html">
+						CookieJar					</a>
+
+						</li>
+				<li>
+					<a href="namespace-GuzzleHttp.Tests.Event.html">
+						Event					</a>
+
+						</li>
+				<li>
+					<a href="namespace-GuzzleHttp.Tests.Exception.html">
+						Exception					</a>
+
+						</li>
+				<li>
+					<a href="namespace-GuzzleHttp.Tests.Handler.html">
+						Handler					</a>
+
+						</li>
+				<li>
+					<a href="namespace-GuzzleHttp.Tests.Promise.html">
+						Promise					</a>
+
+						</li>
+				<li class="active">
+					<a href="namespace-GuzzleHttp.Tests.Psr7.html">
+						Psr7					</a>
+
+						</li>
+							</ul></li></ul></li>
+				<li>
+					<a href="namespace-League.html">
+						League<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-League.OAuth2.html">
+						OAuth2<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-League.OAuth2.Client.html">
+						Client<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-League.OAuth2.Client.Grant.html">
+						Grant<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-League.OAuth2.Client.Grant.Exception.html">
+						Exception					</a>
+
+						</li>
+							</ul></li>
+				<li>
+					<a href="namespace-League.OAuth2.Client.Provider.html">
+						Provider<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-League.OAuth2.Client.Provider.Exception.html">
+						Exception					</a>
+
+						</li>
+							</ul></li>
+				<li>
+					<a href="namespace-League.OAuth2.Client.Test.html">
+						Test<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-League.OAuth2.Client.Test.Grant.html">
+						Grant					</a>
+
+						</li>
+				<li>
+					<a href="namespace-League.OAuth2.Client.Test.Provider.html">
+						Provider<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-League.OAuth2.Client.Test.Provider.Exception.html">
+						Exception					</a>
+
+						</li>
+				<li>
+					<a href="namespace-League.OAuth2.Client.Test.Provider.Fake.html">
+						Fake					</a>
+
+						</li>
+							</ul></li>
+				<li>
+					<a href="namespace-League.OAuth2.Client.Test.Token.html">
+						Token					</a>
+
+						</li>
+				<li>
+					<a href="namespace-League.OAuth2.Client.Test.Tool.html">
+						Tool					</a>
+
+						</li>
+							</ul></li>
+				<li>
+					<a href="namespace-League.OAuth2.Client.Token.html">
+						Token					</a>
+
+						</li>
+				<li>
+					<a href="namespace-League.OAuth2.Client.Tool.html">
+						Tool					</a>
+
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li>
+					<a href="namespace-None.html">
+						None					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Psr.html">
+						Psr<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Psr.Http.html">
+						Http<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Psr.Http.Message.html">
+						Message					</a>
+
+						</li>
+							</ul></li></ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.AppendStreamTest.html">AppendStreamTest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.BadStream.html">BadStream</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.BufferStreamTest.html">BufferStreamTest</a></li>
+				<li class="active"><a href="class-GuzzleHttp.Tests.Psr7.CachingStreamTest.html">CachingStreamTest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.DroppingStreamTest.html">DroppingStreamTest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.ExtendedUriTest.html">ExtendedUriTest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.FnStreamTest.html">FnStreamTest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.FunctionsTest.html">FunctionsTest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.HasToString.html">HasToString</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.InflateStreamtest.html">InflateStreamtest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.LazyOpenStreamTest.html">LazyOpenStreamTest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.LimitStreamTest.html">LimitStreamTest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.NoSeekStreamTest.html">NoSeekStreamTest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.PumpStreamTest.html">PumpStreamTest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.RequestTest.html">RequestTest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.ResponseTest.html">ResponseTest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.ServerRequestTest.html">ServerRequestTest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.Str.html">Str</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.StreamDecoratorTraitTest.html">StreamDecoratorTraitTest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.StreamTest.html">StreamTest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.StreamWrapperTest.html">StreamWrapperTest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.UploadedFileTest.html">UploadedFileTest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.UriNormalizerTest.html">UriNormalizerTest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.UriResolverTest.html">UriResolverTest</a></li>
+				<li><a href="class-GuzzleHttp.Tests.Psr7.UriTest.html">UriTest</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-GuzzleHttp.Tests.Psr7.html" title="Summary of GuzzleHttp\Tests\Psr7"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+			<li>
+				<a href="-API-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+			</li>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class CachingStreamTest</h1>
+
+
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+PHPUnit_Framework_TestCase
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by">
+<b><span>GuzzleHttp\Tests\Psr7\CachingStreamTest</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-GuzzleHttp.html">GuzzleHttp</a>\<a href="namespace-GuzzleHttp.Tests.html">Tests</a>\<a href="namespace-GuzzleHttp.Tests.Psr7.html">Psr7</a><br>
+		
+
+				<b>Covers:</b>
+				GuzzleHttp\Psr7\CachingStream<br>
+			<b>Located at</b> <a href="source-class-GuzzleHttp.Tests.Psr7.CachingStreamTest.html#8-195" title="Go to source code">tests/CachingStreamTest.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="setUp" id="_setUp">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setUp">#</a>
+		<code><a href="source-class-GuzzleHttp.Tests.Psr7.CachingStreamTest.html#18-22" title="Go to source code">setUp</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="tearDown" id="_tearDown">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_tearDown">#</a>
+		<code><a href="source-class-GuzzleHttp.Tests.Psr7.CachingStreamTest.html#24-28" title="Go to source code">tearDown</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testUsesRemoteSizeIfPossible" id="_testUsesRemoteSizeIfPossible">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testUsesRemoteSizeIfPossible">#</a>
+		<code><a href="source-class-GuzzleHttp.Tests.Psr7.CachingStreamTest.html#30-35" title="Go to source code">testUsesRemoteSizeIfPossible</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testReadsUntilCachedToByte" id="_testReadsUntilCachedToByte">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testReadsUntilCachedToByte">#</a>
+		<code><a href="source-class-GuzzleHttp.Tests.Psr7.CachingStreamTest.html#37-43" title="Go to source code">testReadsUntilCachedToByte</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testCanSeekNearEndWithSeekEnd" id="_testCanSeekNearEndWithSeekEnd">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testCanSeekNearEndWithSeekEnd">#</a>
+		<code><a href="source-class-GuzzleHttp.Tests.Psr7.CachingStreamTest.html#45-53" title="Go to source code">testCanSeekNearEndWithSeekEnd</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testCanSeekToEndWithSeekEnd" id="_testCanSeekToEndWithSeekEnd">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testCanSeekToEndWithSeekEnd">#</a>
+		<code><a href="source-class-GuzzleHttp.Tests.Psr7.CachingStreamTest.html#55-63" title="Go to source code">testCanSeekToEndWithSeekEnd</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testCanUseSeekEndWithUnknownSize" id="_testCanUseSeekEndWithUnknownSize">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testCanUseSeekEndWithUnknownSize">#</a>
+		<code><a href="source-class-GuzzleHttp.Tests.Psr7.CachingStreamTest.html#65-74" title="Go to source code">testCanUseSeekEndWithUnknownSize</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testRewindUsesSeek" id="_testRewindUsesSeek">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testRewindUsesSeek">#</a>
+		<code><a href="source-class-GuzzleHttp.Tests.Psr7.CachingStreamTest.html#76-88" title="Go to source code">testRewindUsesSeek</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testCanSeekToReadBytes" id="_testCanSeekToReadBytes">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testCanSeekToReadBytes">#</a>
+		<code><a href="source-class-GuzzleHttp.Tests.Psr7.CachingStreamTest.html#90-101" title="Go to source code">testCanSeekToReadBytes</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testCanSeekToReadBytesWithPartialBodyReturned" id="_testCanSeekToReadBytesWithPartialBodyReturned">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testCanSeekToReadBytesWithPartialBodyReturned">#</a>
+		<code><a href="source-class-GuzzleHttp.Tests.Psr7.CachingStreamTest.html#103-128" title="Go to source code">testCanSeekToReadBytesWithPartialBodyReturned</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testWritesToBufferStream" id="_testWritesToBufferStream">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testWritesToBufferStream">#</a>
+		<code><a href="source-class-GuzzleHttp.Tests.Psr7.CachingStreamTest.html#130-136" title="Go to source code">testWritesToBufferStream</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testSkipsOverwrittenBytes" id="_testSkipsOverwrittenBytes">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testSkipsOverwrittenBytes">#</a>
+		<code><a href="source-class-GuzzleHttp.Tests.Psr7.CachingStreamTest.html#138-177" title="Go to source code">testSkipsOverwrittenBytes</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testClosesBothStreams" id="_testClosesBothStreams">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testClosesBothStreams">#</a>
+		<code><a href="source-class-GuzzleHttp.Tests.Psr7.CachingStreamTest.html#179-186" title="Go to source code">testClosesBothStreams</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="testEnsuresValidWhence" id="_testEnsuresValidWhence">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_testEnsuresValidWhence">#</a>
+		<code><a href="source-class-GuzzleHttp.Tests.Psr7.CachingStreamTest.html#188-194" title="Go to source code">testEnsuresValidWhence</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+				<h4>Expectedexception</h4>
+				<div class="list">
+						\InvalidArgumentException<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		MercadoLibre PHP SDK API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

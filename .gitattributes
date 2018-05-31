@@ -1,0 +1,165 @@
+# docta/mercadolibre
+# @copyright 2018 Lucas Banegas
+# @license MIT
+
+# Auto-detect
+* text=auto
+* eol=lf
+
+# Source code
+*.bat text
+*.coffee text
+*.css text
+*.html text
+*.htm text
+*.inc text
+*.ini text
+*.json text
+*.js text
+*.jsx text
+*.less text
+*.php text
+*.pl text
+*.py text
+*.rb text
+*.sass text
+*.scm text
+*.scss text
+*.sh text
+*.sql text
+*.styl text
+*.ts text
+*.xhtml text
+*.xml text
+
+# Documentation
+*.markdown text
+*.mdown text
+*.md text
+*.mdtext text
+*.mdtxt text
+*.mdwn text
+*.mkdn text
+*.mkd text
+*.txt text
+*README* text
+AUTHORS text
+CHANGELOG text
+CHANGES text
+CONTRIBUTING text
+COPYING text
+INSTALL text
+LICENSE text
+license text
+NEWS text
+readme text
+TODO text
+
+# Templates
+*.dot text
+*.ejs text
+*.haml text
+*.handlebars text
+*.hbs text
+*.hbt text
+*.jade text
+*.latte text
+*.mustache text
+*.phtml text
+*.tmpl text
+
+# Linters
+.csslintrc text
+.eslintrc text
+.jscsrc text
+.jshintignore text
+.jshintrc text
+.stylelintrc text
+
+# Configs
+*.bowerrc text
+*.cnf text
+*.config text
+*.conf text
+*.npmignore text
+*.yaml text
+*.yml text
+.editorconfig text
+.gitattributes text
+.gitconfig text
+.gitignore text
+.htaccess text
+makefile text
+Makefile text
+
+# Heroku
+.slugignore text
+Procfile text
+
+# Graphics
+*.ai binary
+*.bmp binary
+*.eps binary
+*.gif binary
+*.ico binary
+*.jng binary
+*.jp2 binary
+*.jpeg binary
+*.jpg binary
+*.jpx binary
+*.jxr binary
+*.pdf binary
+*.png binary
+*.psb binary
+*.psd binary
+*.svg text
+*.svgz binary
+*.tif binary
+*.tiff binary
+*.wbmp binary
+*.webp binary
+
+# Audio
+*.kar binary
+*.m4a binary
+*.mid binary
+*.midi binary
+*.mp3 binary
+*.ogg binary
+*.ra binary
+
+# Video
+*.3gp binary
+*.3gpp binary
+*.as binary
+*.asf binary
+*.asx binary
+*.fla binary
+*.flv binary
+*.m4v binary
+*.mng binary
+*.mov binary
+*.mp4 binary
+*.mpeg binary
+*.mpg binary
+*.swc binary
+*.swf binary
+*.webm binary
+
+# Archives
+*.7z binary
+*.gz binary
+*.rar binary
+*.tar binary
+*.zip binary
+
+# Fonts
+*.eot binary
+*.otf binary
+*.ttf binary
+*.woff2 binary
+*.woff binary
+
+# Executables
+*.exe binary
+*.pyc binary

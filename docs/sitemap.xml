@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://docta.github.io/mercadolibre/index.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-Docta.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-Docta.MercadoLibre.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-Docta.MercadoLibre.Exception.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-Docta.MercadoLibre.OAuth2.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-Docta.MercadoLibre.OAuth2.Client.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-Docta.MercadoLibre.OAuth2.Client.Test.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-GuzzleHttp.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-GuzzleHttp.Cookie.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-GuzzleHttp.Exception.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-GuzzleHttp.Handler.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-GuzzleHttp.Promise.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-GuzzleHttp.Promise.Test.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-GuzzleHttp.Promise.Tests.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-GuzzleHttp.Psr7.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-GuzzleHttp.Test.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-GuzzleHttp.Test.Handler.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-GuzzleHttp.Tests.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-GuzzleHttp.Tests.CookieJar.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-GuzzleHttp.Tests.Event.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-GuzzleHttp.Tests.Exception.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-GuzzleHttp.Tests.Handler.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-GuzzleHttp.Tests.Promise.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-GuzzleHttp.Tests.Psr7.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-League.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-League.OAuth2.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-League.OAuth2.Client.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-League.OAuth2.Client.Grant.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-League.OAuth2.Client.Grant.Exception.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-League.OAuth2.Client.Provider.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-League.OAuth2.Client.Provider.Exception.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-League.OAuth2.Client.Test.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-League.OAuth2.Client.Test.Grant.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-League.OAuth2.Client.Test.Provider.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-League.OAuth2.Client.Test.Provider.Exception.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-League.OAuth2.Client.Test.Provider.Fake.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-League.OAuth2.Client.Test.Token.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-League.OAuth2.Client.Test.Tool.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-League.OAuth2.Client.Token.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-League.OAuth2.Client.Tool.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-None.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-Psr.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-Psr.Http.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/namespace-Psr.Http.Message.html</loc>
+</url>
+
+
+<url>
+	<loc>https://docta.github.io/mercadolibre/class-Docta.MercadoLibre.Client.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/class-Docta.MercadoLibre.OAuth2.Client.Provider.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/class-Docta.MercadoLibre.OAuth2.Client.ResourceGeneric.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/class-Docta.MercadoLibre.OAuth2.Client.ResourceOwner.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/class-Docta.MercadoLibre.OAuth2.Client.Test.ProviderTest.html</loc>
+</url>
+<url>
+	<loc>https://docta.github.io/mercadolibre/class-Docta.MercadoLibre.Exception.ClientException.html</loc>
+</url>
+</urlset>

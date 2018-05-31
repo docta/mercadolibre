@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://docta.github.io/mercadolibre/sitemap.xml
